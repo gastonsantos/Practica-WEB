@@ -28,7 +28,7 @@
 
 	display: block;
 	padding: 20px;
-	color: #5F4944;
+	color: black;
 	text-decoration: none;
 }
 #hidden li:hover{
@@ -96,3 +96,61 @@ margin-top: -3em;
 list-style: none;
 }
 
+
+
+
+#body-banner{
+	background: url(foto8.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+}
+
+.banner{
+	color:  #524e4d ;
+}
+
+.banner-text{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	text-align: center;
+
+}
+.banner h1{
+	font-family: cursive;
+	font-size: 45px;
+	text-transform: uppercase;
+	color: black;
+	top:40%;
+	left: 40%;
+	position: absolute;
+}
+
+.btn-area:hover{
+	margin-top: 50px;
+	transform: scale(1.2);
+	transition: transform 0.5s;
+	
+}
+
+.btn{
+	direction: inline-block;
+	padding: 15px 40px;
+	text-decoration: none;
+	text-align: center;
+	background: crimson;
+	font-size: 16px;
+	color: #5F4944;
+	border-radius: 50px;
+	text-decoration: uppercase;
+	background: #3ead47;
+	font-family: arial,sans-serif;
+
+}
+
+@font-face{
+font-family:Sarina-Regular;
+src: url(Sarina-Regular.ttf);
+}
